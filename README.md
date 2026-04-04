@@ -1,5 +1,7 @@
 # OpEngine.jl
 
+[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
+
 Operator-partitioned numerical solver — ODE + IMEX/PDE operator splitting.
 
 ## Overview
