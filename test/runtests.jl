@@ -1,6 +1,6 @@
-using PACKAGE_NAME
+using OpEngine
 using Test
 
-@testset "PACKAGE_NAME.jl" begin
+@testset "OpEngine.jl" begin
     @test true  # smoke test
 end

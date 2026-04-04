@@ -1,5 +1,5 @@
-name = "PACKAGE_NAME"
-uuid = "00000000-0000-0000-0000-000000000000"
+name = "OpEngine"
+uuid = "0a166e93-f540-4645-a256-0be49b1afca5"
 authors = ["Joshua C. Macdonald <jmacdo16@jh.edu>"]
 version = "0.1.0"
 

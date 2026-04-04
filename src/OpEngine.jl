@@ -1,4 +1,4 @@
-module PACKAGE_NAME
+module OpEngine
 
 # TODO: exports
 
