@@ -2,18 +2,18 @@
 
 [![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
 
-Operator-partitioned numerical solver — ODE + IMEX/PDE operator splitting.
+Operator-partitioned solver for composing heterogeneous subsystem solvers into a single time-stepping pipeline.
 
 ## Overview
 
 `OpEngine.jl` is a Julia port of
-[ACCIDDA/op_engine](https://github.com/ACCIDDA/op_engine) (Python). It provides
-a numerical solver that decomposes dynamical systems into operator-partitioned
-components, supporting:
+[ACCIDDA/op_engine](https://github.com/ACCIDDA/op_engine) (Python). It composes
+heterogeneous subsystem solvers into a unified pipeline, supporting:
 
-- Standard ODE integration
+- ODE integration
 - IMEX (implicit-explicit) splitting
 - PDE operator splitting
+- Stochastic and hybrid schemes
 
 ## Status
 
