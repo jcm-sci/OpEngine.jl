@@ -25,7 +25,7 @@ heterogeneous subsystem solvers into a unified pipeline, supporting:
 |---------|-------------|
 | [op_engine](https://github.com/ACCIDDA/op_engine) | Original Python implementation |
 | [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl) | System specification compiler (input to OpEngine) |
-| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Model evaluation framework (downstream consumer) |
+| [TradeStudy.jl](https://github.com/jcm-sci/TradeStudy.jl) | Model evaluation framework (downstream consumer) |
 
 ## Installation
 
