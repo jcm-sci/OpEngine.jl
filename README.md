@@ -1,38 +1,23 @@
 # OpEngine.jl
 
-[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
+[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/projects/)
 
-Operator-partitioned solver for composing heterogeneous subsystem solvers into a single time-stepping pipeline.
+> [!IMPORTANT]
+> **Inactive design scaffold.** This repository does not currently provide a
+> usable Julia package or public API. Its source module and tests are
+> placeholders, and the package is not registered in Julia's General registry.
 
-## Overview
+## Current implementation
 
-`OpEngine.jl` is a Julia port of
-[ACCIDDA/op_engine](https://github.com/ACCIDDA/op_engine) (Python). It composes
-heterogeneous subsystem solvers into a unified pipeline, supporting:
+The maintained implementation is the Python
+[ACCIDDA/op_engine](https://github.com/ACCIDDA/op_engine) package, with
+documentation at [accidda.github.io/op_engine](https://accidda.github.io/op_engine/).
 
-- ODE integration
-- IMEX (implicit-explicit) splitting
-- PDE operator splitting
-- Stochastic and hybrid schemes
+## Repository purpose
 
-## Status
-
-**Pre-alpha.** Port in progress.
-
-## Related Packages
-
-| Package | Description |
-|---------|-------------|
-| [op_engine](https://github.com/ACCIDDA/op_engine) | Original Python implementation |
-| [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl) | System specification compiler (input to OpEngine) |
-| [TradeStudy.jl](https://github.com/jcm-sci/TradeStudy.jl) | Model evaluation framework (downstream consumer) |
-
-## Installation
-
-```julia
-using Pkg
-Pkg.add("OpEngine")
-```
+This repository is retained as a possible starting point for a future Julia
+port. There is no active development timeline. Do not depend on it for
+research or production work.
 
 ## Development
 
